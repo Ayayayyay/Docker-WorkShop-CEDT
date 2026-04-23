@@ -42,5 +42,6 @@ services:
     #     - ./app/db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
 
 # TODO(step-5h): declare the named volume `pgdata` at the top level.
+
 volumes:
   pgdata:
